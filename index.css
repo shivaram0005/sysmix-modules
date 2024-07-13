@@ -30,7 +30,7 @@
 .content div{
     width: fit-content;
     height: 180px;
-    margin: 20px 0px;
+    margin: 50px 50px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
