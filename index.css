@@ -1,0 +1,46 @@
+.main-container{
+    position: absolute;
+    top: 60px;
+    width: 90%;
+    margin: 0 5%;
+    height: 600px;
+    /* border: 1px solid red; */
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.module{
+    flex: 1;
+    position: relative;
+    left: 200px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.content{
+    flex: 1;
+    scroll-behavior: smooth;
+    height: 600px;
+    overflow: auto;
+   
+    /* overflow: hidden; */
+}
+.content div{
+    width: fit-content;
+    height: 180px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+
+}
+.content div p{
+    font-size: 20px;
+    color: #fff;
+    margin: 20px;
+}
