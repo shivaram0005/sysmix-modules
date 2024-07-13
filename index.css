@@ -11,6 +11,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: #d3d3d3;
 }
 .module{
     flex: 1;
